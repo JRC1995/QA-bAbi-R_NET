@@ -17,7 +17,7 @@ Instead of a pointer network (which was used to predict the span of the original
 
 I used the transpose of the embedding matrix to linearly transform the final hidden state of the output layer into the probability distribution. Using embedding matrix for the final conversion to probability distribution seems to usually speed up training, sometimes quite substantially, without bringing any apparent detrimental effects. 
 
-The accuracy isn't too different from [my DMN+ implementation](https://github.com/JRC1995/Dynamic-Memory-Network-Plus) for this particular task when used . 
+I trained and tested the model on the induction tasks of [bAbi 10k dataset](https://research.fb.com/downloads/babi/). The accuracy isn't too different from [my DMN+ implementation](https://github.com/JRC1995/Dynamic-Memory-Network-Plus) for this particular task when used with these specific settings. 
 
 Some other hyperparameters are different. 
 
